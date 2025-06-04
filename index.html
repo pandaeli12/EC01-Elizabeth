@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mi Formulario</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main>
+        <div class="container">   
+            <form>
+                <h1>Formulario de Registro</h1>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required />
+
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido" required />
+
+                <label for="edad">Edad</label>
+                <input type="number" id="edad" name="edad" min="1" max="120" required />
+
+                <label for="correo">Correo</label>
+                <input type="email" id="correo" name="correo" required />
+
+                <label for="contrasena">Contraseña</label>
+                <input type="password" id="contrasena" name="contrasena" required />
+
+                <label for="telefono">N° teléfono</label>
+                <input type="tel" id="telefono" name="telefono" pattern="[0-9]{7,15}" placeholder="Solo números" required />
+
+                <label for="direccion">Dirección</label>
+                <input type="text" id="direccion" name="direccion" required />
+
+                <label for="color">Color favorito</label>
+                <input type="color" id="color" name="color" value="#0000ff" />
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <section>
+        <h2>Darth Vader</h2>
+        <img src="https://pixelz.cc/wp-content/uploads/2024/03/lego-star-wars-the-skywalker-saga-darth-vader-uhd-4k-wallpaper.jpg" alt="Darth Vader" width="100" />
+    </section>
+    <footer>
+        <p>&copy; 2025 Elizabeth Flores</p>
+    </footer>
+</body>
+</html>
